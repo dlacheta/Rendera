@@ -1,14 +1,14 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { App } from "./App";
+import { SpiralLines as SpiralLinesComponent } from "./SpiralLines";
 
 const meta = {
   title: "Spiral Lines",
-  component: App,
+  component: SpiralLinesComponent,
   parameters: {
     layout: "fullscreen",
   },
-} satisfies Meta<typeof App>;
+} satisfies Meta<typeof SpiralLinesComponent>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;

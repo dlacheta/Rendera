@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber";
-import { WavyLine } from "./SpiralLine";
+import { WavyLine } from "./WavyLine";
 
-export const App = () => {
+export const SpiralLines = () => {
   const numPoints = 150; // Liczba punktów na linii
   const height = 20; // Wysokość linii
   const waveAmplitude = 0.5; // Amplituda falowania

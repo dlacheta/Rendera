@@ -1,3 +1,4 @@
-import { App } from "./App";
+import { SpiralLines } from "./components/SpiralLines";
+import { SnakeLines } from "./components/SnakeLines";
 
-export { App };
+export { SpiralLines, SnakeLines };
