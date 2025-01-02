@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import * as THREE from "three";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Line } from "@react-three/drei";
-import { App } from "rendera";
 
 const SnakeLine = () => {
   const [points, setPoints] = useState([
@@ -49,11 +48,10 @@ const SnakeLine = () => {
 
 export const SnakeLines = () => {
   return (
-    // <Canvas style={{ width: "80vw", height: "80vh" }}>
-    //   <ambientLight intensity={0.1} />
-    //   <directionalLight position={[0, 0, 5]} />
-    //   <SnakeLine />
-    // </Canvas>
-    <App />
+    <Canvas style={{ width: "80vw", height: "80vh" }}>
+      <ambientLight intensity={0.1} />
+      <directionalLight position={[0, 0, 5]} />
+      <SnakeLine />
+    </Canvas>
   );
 };
