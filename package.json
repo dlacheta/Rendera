@@ -2,10 +2,11 @@
   "name": "rendera",
   "version": "0.2.1",
   "type": "module",
-  "main": "src/main.tsx",
+  "main": "dist/rendera.cjs.js",
+  "module": "src/rendera.es.js",
   "scripts": {
     "start": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
